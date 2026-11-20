@@ -53,11 +53,6 @@ const BADGES = [
   },
 ];
 
-const FOOTER_LINKS = [
-  { href: "https://github.com/zbbsdsb/R-U-Socrates", label: "GitHub" },
-  { href: "https://github.com/zbbsdsb/R-U-Socrates/issues", label: "Issues" },
-  { href: "https://github.com/zbbsdsb/R-U-Socrates/discussions", label: "Discussions" },
-];
 
 export default function RootLayout({
   children,
@@ -129,45 +124,37 @@ export default function RootLayout({
 
                 <main className="container py-6 flex-1">{children}</main>
 
-                {/* Footer */}
+                {/* Credits */}
                 <footer className="border-t bg-muted/30 shrink-0">
-                  <div className="container flex flex-col sm:flex-row items-center justify-between gap-3 py-4 text-xs text-muted-foreground">
-                    <div className="flex items-center gap-2">
-                      {/* eslint-disable-next-line @next/next/no-img-element */}
-                      <img src="/logo.png" alt="R U Socrates" className="h-5 w-5 rounded object-contain opacity-60" />
-                      <span>
-                        © {new Date().getFullYear()} Oasis Company — Built by{" "}
-                        <a
-                          href="https://github.com/zbbsdsb"
-                          target="_blank"
-                          rel="noopener noreferrer"
-                          className="font-medium text-foreground/70 hover:text-foreground transition-colors"
-                        >
-                          zbbsdsb
-                        </a>
-                      </span>
-                    </div>
-                    <nav className="flex items-center gap-4">
-                      {FOOTER_LINKS.map(({ href, label }) => (
-                        <a
-                          key={label}
-                          href={href}
-                          target="_blank"
-                          rel="noopener noreferrer"
-                          className="hover:text-foreground transition-colors"
-                        >
-                          {label}
-                        </a>
-                      ))}
-                      <a
-                        href="https://github.com/zbbsdsb/R-U-Socrates/blob/main/LICENSE"
-                        target="_blank"
-                        rel="noopener noreferrer"
-                        className="hover:text-foreground transition-colors"
-                      >
-                        License
-                      </a>
-                    </nav>
+                  <div className="container py-4 text-xs text-muted-foreground">
+                    Research loop derived from{" "}
+                    <a
+                      href="https://github.com/GAIR-NLP/ASI-Evolve"
+                      target="_blank"
+                      rel="noopener noreferrer"
+                      className="font-medium text-foreground/70 hover:text-foreground transition-colors"
+                    >
+                      ASI-Evolve
+                    </a>{" "}
+                    and{" "}
+                    <a
+                      href="https://github.com/GAIR-NLP/ASI-Arch"
+                      target="_blank"
+                      rel="noopener noreferrer"
+                      className="font-medium text-foreground/70 hover:text-foreground transition-colors"
+                    >
+                      ASI-Arch
+                    </a>{" "}
+                    (GAIR-NLP), revised from{" "}
+                    <a
+                      href="https://github.com/zbbsdsb/R-U-Socrates"
+                      target="_blank"
+                      rel="noopener noreferrer"
+                      className="font-medium text-foreground/70 hover:text-foreground transition-colors"
+                    >
+                      zbbsdsb/R-U-Socrates
+                    </a>
+                    .
                   </div>
                 </footer>
 

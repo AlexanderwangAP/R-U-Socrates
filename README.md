@@ -221,17 +221,20 @@ taskkill /PID <pid> /F
 
 ## Credits
 
-R U Socrates stands on two upstream projects:
+R U Socrates stands on two research projects from **GAIR-NLP**:
 
-- **ASI-Evolve** — the research loop this project is derived from. The
-  `Researcher` / `Engineer` / `Analyzer` pipeline (`services/worker/pipeline.py`),
-  the node and cognition stores (`services/worker/memory.py`), and the core
-  data structures (`services/worker/models.py`) were forked and rewritten from
-  ASI-Evolve, and are released under Apache-2.0 as upstream released them.
-- **ASI-Arch** — consulted as a secondary reference during the rework.
+- **[ASI-Evolve](https://github.com/GAIR-NLP/ASI-Evolve)** —
+  [*ASI-Evolve: AI Accelerates AI*](https://arxiv.org/abs/2603.29640).
+  The `Researcher` / `Engineer` / `Analyzer` loop
+  (`services/worker/pipeline.py`), the node and cognition stores
+  (`services/worker/memory.py`) and the core data structures
+  (`services/worker/models.py`) were forked and rewritten from this project,
+  under Apache-2.0 as upstream released them.
+- **[ASI-Arch](https://github.com/GAIR-NLP/ASI-Arch)** —
+  [*AlphaGo Moment for Model Architecture Discovery*](https://arxiv.org/abs/2507.18074).
+  Consulted as a secondary reference during the rework.
 
-Both are research projects from **GAIR**. If you use this project, please cite
-and credit the upstream work.
+If you use this project, please cite and credit the upstream work.
 
 This repository is itself a revision of
 [zbbsdsb/R-U-Socrates](https://github.com/zbbsdsb/R-U-Socrates), used with the
@@ -272,18 +275,3 @@ The `LICENSE` file in this repository is **Apache License 2.0**.
 
 The core layer derives from ASI-Evolve and keeps Apache-2.0, as upstream
 released it. Derived work in this repository is offered under the same terms.
-
----
-
-<p align="center">
-  <strong>🏢 Oasis Company</strong><br>
-  <a href="https://github.com/zbbsdsb">GitHub Organization</a>
-</p>
-
-<p align="center">
-  Explore our ecosystem:
-  <a href="https://github.com/zbbsdsb/QueueDesk">QueueDesk</a> ·
-  <a href="https://github.com/zbbsdsb/muserock">MuseRock</a> ·
-  <a href="https://github.com/zbbsdsb/R-U-Socrates">R U Socrates</a> ·
-  <a href="https://github.com/zbbsdsb/pwl-reading-companion">pwl-reading</a>
-</p>
