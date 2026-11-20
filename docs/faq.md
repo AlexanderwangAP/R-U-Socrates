@@ -84,7 +84,7 @@ A: Check that SQLite can write to the `data/` directory.
 ## Technical Support
 
 ### Q: How do I report a bug?
-A: Open a [GitHub Issue](https://github.com/zbbsdsb/R-U-Socrates/issues) with:
+A: Open a [GitHub Issue](https://github.com/AlexanderwangAP/R-U-Socrates/issues) with:
 - Steps to reproduce
 - Expected behavior
 - Actual behavior

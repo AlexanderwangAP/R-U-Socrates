@@ -197,7 +197,7 @@ Ready to see AI research unfold before your eyes? Here’s how to get started:
 
 1. **Install dependencies**:
    ```bash
-   git clone https://github.com/zbbsdsb/R-U-Socrates.git
+   git clone https://github.com/AlexanderwangAP/R-U-Socrates.git
    cd R-U-Socrates
    npm install
    pip install -r services/requirements.txt
@@ -242,7 +242,7 @@ Follow us on GitHub to stay updated!
 
 ---
 
-## Built With ❤️ by Oasis Company
+## Built With ❤️ by AlexanderwangAP
 
 R U Socrates is open source and free to use (non-commercial). We believe that transparent AI research should be accessible to everyone.
 

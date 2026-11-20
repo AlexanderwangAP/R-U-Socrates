@@ -16,7 +16,7 @@ export const metadata: Metadata = {
   },
   description:
     "Transform research questions into executable experiments — powered by AI.",
-  authors: [{ name: "zbbsdsb" }],
+  authors: [{ name: "AlexanderwangAP" }],
   icons: {
     icon: "/favicon.png",
     shortcut: "/favicon.png",
@@ -39,7 +39,7 @@ const BADGES = [
     label: "License",
     text: "Apache-2.0",
     bg: "bg-green-100 text-green-700",
-    href: "https://github.com/zbbsdsb/R-U-Socrates/blob/main/LICENSE",
+    href: "https://github.com/AlexanderwangAP/R-U-Socrates/blob/main/LICENSE",
   },
   {
     label: "Stack",
@@ -79,7 +79,7 @@ export default function RootLayout({
                     <div className="flex items-center gap-3">
                       {/* GitHub star button */}
                       <a
-                        href="https://github.com/zbbsdsb/R-U-Socrates"
+                        href="https://github.com/AlexanderwangAP/R-U-Socrates"
                         target="_blank"
                         rel="noopener noreferrer"
                         className="flex items-center gap-1.5 text-xs text-muted-foreground hover:text-foreground transition-colors border border-border rounded-md px-2.5 py-1 hover:bg-muted/50"
@@ -88,7 +88,7 @@ export default function RootLayout({
                         Star
                       </a>
                       <a
-                        href="https://github.com/zbbsdsb/R-U-Socrates/fork"
+                        href="https://github.com/AlexanderwangAP/R-U-Socrates/fork"
                         target="_blank"
                         rel="noopener noreferrer"
                         className="flex items-center gap-1.5 text-xs text-muted-foreground hover:text-foreground transition-colors border border-border rounded-md px-2.5 py-1 hover:bg-muted/50"

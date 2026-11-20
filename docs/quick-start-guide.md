@@ -32,7 +32,7 @@
 
 2. **Clone the Repository**
    ```powershell
-   git clone https://github.com/zbbsdsb/R-U-Socrates.git
+   git clone https://github.com/AlexanderwangAP/R-U-Socrates.git
    cd R-U-Socrates
    ```
 
@@ -61,7 +61,7 @@
 
 2. **Clone the Repository**
    ```bash
-   git clone https://github.com/zbbsdsb/R-U-Socrates.git
+   git clone https://github.com/AlexanderwangAP/R-U-Socrates.git
    cd R-U-Socrates
    ```
 
@@ -129,7 +129,7 @@ Wait until you see: `Local: http://localhost:3000`
 - Explore the [Developer Guide](./developer-guide.md)
 - Check out the [Roadmap](./roadmap.md)
 - Contribute to the project!
-- Ask questions in [GitHub Discussions](https://github.com/zbbsdsb/R-U-Socrates/discussions)
+- Ask questions in [GitHub Discussions](https://github.com/AlexanderwangAP/R-U-Socrates/discussions)
 
 ---
 
@@ -153,4 +153,4 @@ Wait until you see: `Local: http://localhost:3000`
 
 ## Need Help?
 
-Check the [FAQ](./faq.md) or open a [GitHub Issue](https://github.com/zbbsdsb/R-U-Socrates/issues).
+Check the [FAQ](./faq.md) or open a [GitHub Issue](https://github.com/AlexanderwangAP/R-U-Socrates/issues).

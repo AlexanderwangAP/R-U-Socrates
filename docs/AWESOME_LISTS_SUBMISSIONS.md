@@ -5,7 +5,7 @@ This document contains prepared PR content for submitting R U Socrates to variou
 ---
 
 ## 1. awesome-ai
-- **Repository**: https://github.com/zbbsdsb/R-U-Socrates
+- **Repository**: https://github.com/AlexanderwangAP/R-U-Socrates
 - **Awesome List**: https://github.com/sindresorhus/awesome-ai
 
 ### PR Description
@@ -17,13 +17,13 @@ R U Socrates makes the AI research process visible. Instead of getting a black-b
 
 ### Formatted Entry
 ```markdown
-- [R U Socrates](https://github.com/zbbsdsb/R-U-Socrates) - The transparent research engine. See how AI thinks — every step, every decision.
+- [R U Socrates](https://github.com/AlexanderwangAP/R-U-Socrates) - The transparent research engine. See how AI thinks — every step, every decision.
 ```
 
 ---
 
 ## 2. awesome-python
-- **Repository**: https://github.com/zbbsdsb/R-U-Socrates
+- **Repository**: https://github.com/AlexanderwangAP/R-U-Socrates
 - **Awesome List**: https://github.com/vinta/awesome-python
 
 ### PR Description
@@ -37,13 +37,13 @@ Backend is built with Python 3.10+, FastAPI, SQLAlchemy, and LiteLLM.
 
 ### Formatted Entry
 ```markdown
-- [R U Socrates](https://github.com/zbbsdsb/R-U-Socrates) - The transparent research engine. See how AI thinks — every step, every decision.
+- [R U Socrates](https://github.com/AlexanderwangAP/R-U-Socrates) - The transparent research engine. See how AI thinks — every step, every decision.
 ```
 
 ---
 
 ## 3. awesome-llm
-- **Repository**: https://github.com/zbbsdsb/R-U-Socrates
+- **Repository**: https://github.com/AlexanderwangAP/R-U-Socrates
 - **Awesome List**: https://github.com/Hannibal046/Awesome-LLM
 
 ### PR Description
@@ -55,13 +55,13 @@ R U Socrates is a transparent research engine that lets you observe how AI think
 
 ### Formatted Entry
 ```markdown
-- [R U Socrates](https://github.com/zbbsdsb/R-U-Socrates) - The transparent research engine. See how AI thinks — every step, every decision.
+- [R U Socrates](https://github.com/AlexanderwangAP/R-U-Socrates) - The transparent research engine. See how AI thinks — every step, every decision.
 ```
 
 ---
 
 ## 4. awesome-openai
-- **Repository**: https://github.com/zbbsdsb/R-U-Socrates
+- **Repository**: https://github.com/AlexanderwangAP/R-U-Socrates
 - **Awesome List**: https://github.com/OpenAI/awesome-openai (or similar)
 
 ### PR Description
@@ -73,13 +73,13 @@ R U Socrates is a transparent research engine that makes AI reasoning visible. I
 
 ### Formatted Entry
 ```markdown
-- [R U Socrates](https://github.com/zbbsdsb/R-U-Socrates) - The transparent research engine. See how AI thinks — every step, every decision.
+- [R U Socrates](https://github.com/AlexanderwangAP/R-U-Socrates) - The transparent research engine. See how AI thinks — every step, every decision.
 ```
 
 ---
 
 ## 5. awesome-machine-learning
-- **Repository**: https://github.com/zbbsdsb/R-U-Socrates
+- **Repository**: https://github.com/AlexanderwangAP/R-U-Socrates
 - **Awesome List**: https://github.com/josephmisiti/awesome-machine-learning
 
 ### PR Description
@@ -91,13 +91,13 @@ R U Socrates makes the AI research process visible. Instead of getting a black-b
 
 ### Formatted Entry
 ```markdown
-- [R U Socrates](https://github.com/zbbsdsb/R-U-Socrates) - The transparent research engine. See how AI thinks — every step, every decision.
+- [R U Socrates](https://github.com/AlexanderwangAP/R-U-Socrates) - The transparent research engine. See how AI thinks — every step, every decision.
 ```
 
 ---
 
 ## 6. awesome-fastapi
-- **Repository**: https://github.com/zbbsdsb/R-U-Socrates
+- **Repository**: https://github.com/AlexanderwangAP/R-U-Socrates
 - **Awesome List**: https://github.com/mjhea0/awesome-fastapi
 
 ### PR Description
@@ -109,5 +109,5 @@ R U Socrates is a transparent research engine that makes AI reasoning visible. T
 
 ### Formatted Entry
 ```markdown
-- [R U Socrates](https://github.com/zbbsdsb/R-U-Socrates) - The transparent research engine. See how AI thinks — every step, every decision.
+- [R U Socrates](https://github.com/AlexanderwangAP/R-U-Socrates) - The transparent research engine. See how AI thinks — every step, every decision.
 ```

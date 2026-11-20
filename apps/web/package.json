@@ -2,7 +2,7 @@
   "name": "@ru-socrates/web",
   "version": "0.1.0",
   "description": "R U Socrates - AI research engine with transparent reasoning",
-  "author": "Oasis <zbbsdsb@gmail.com>",
+  "author": "AlexanderwangAP",
   "private": true,
   "main": "electron/main.js",
   "scripts": {

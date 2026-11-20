@@ -265,7 +265,7 @@ export default function DocsPage() {
             </p>
             <div className="flex flex-wrap gap-3 mt-3">
               <a
-                href="https://github.com/zbbsdsb/R-U-Socrates"
+                href="https://github.com/AlexanderwangAP/R-U-Socrates"
                 target="_blank"
                 rel="noopener noreferrer"
                 className="inline-flex items-center gap-2 rounded-lg border px-4 py-2 text-sm hover:bg-muted/50 transition-colors"
@@ -276,7 +276,7 @@ export default function DocsPage() {
                 View on GitHub
               </a>
               <a
-                href="https://github.com/zbbsdsb/R-U-Socrates/issues"
+                href="https://github.com/AlexanderwangAP/R-U-Socrates/issues"
                 target="_blank"
                 rel="noopener noreferrer"
                 className="inline-flex items-center gap-2 rounded-lg border px-4 py-2 text-sm hover:bg-muted/50 transition-colors"
@@ -288,7 +288,7 @@ export default function DocsPage() {
                 Report an Issue
               </a>
               <a
-                href="https://github.com/zbbsdsb/R-U-Socrates/discussions"
+                href="https://github.com/AlexanderwangAP/R-U-Socrates/discussions"
                 target="_blank"
                 rel="noopener noreferrer"
                 className="inline-flex items-center gap-2 rounded-lg border px-4 py-2 text-sm hover:bg-muted/50 transition-colors"

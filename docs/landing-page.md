@@ -45,7 +45,7 @@ Track performance over time.
 ## 🚀 Get Started
 
 ### **Web Version**
-1. Clone the repo: `git clone https://github.com/zbbsdsb/R-U-Socrates.git`
+1. Clone the repo: `git clone https://github.com/AlexanderwangAP/R-U-Socrates.git`
 2. Install dependencies: `cd apps/web && npm install`
 3. Start frontend: `npm run dev`
 4. Start backend: `python -m uvicorn services.api.main:app --reload --port 8000`

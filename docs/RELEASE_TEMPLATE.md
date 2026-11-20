@@ -44,7 +44,7 @@ This release completes the three-layer transparency system:
 
 ```bash
 # 1. Clone the repo
-git clone https://github.com/zbbsdsb/R-U-Socrates.git
+git clone https://github.com/AlexanderwangAP/R-U-Socrates.git
 cd R-U-Socrates
 
 # 2. Install dependencies
@@ -82,4 +82,4 @@ Open http://localhost:3000 and create your first research task!
 
 ---
 
-**Built with ❤️ by [Oasis Company](https://github.com/zbbsdsb)**
+**Built with ❤️ by [AlexanderwangAP](https://github.com/AlexanderwangAP)**
