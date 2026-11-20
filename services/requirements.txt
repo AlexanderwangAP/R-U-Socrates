@@ -1,0 +1,24 @@
+# R U Socrates — Python dependencies
+# Install with: pip install -r services/requirements.txt
+
+# ── Core API ────────────────────────────────────────────────────────────────
+fastapi>=0.110.0
+uvicorn[standard]>=0.29.0
+sqlalchemy>=2.0.0
+pydantic>=2.6.0
+python-dotenv>=1.0.0
+
+# ── Worker — research pipeline ──────────────────────────────────────────────
+litellm>=1.40.0
+numpy>=1.24.0
+
+# ── Semantic memory (optional) ──────────────────────────────────────────────
+# Without these the app runs normally and simply skips vector retrieval:
+# the embedding stack is imported defensively and degrades to a warning.
+# Uncomment to enable semantic memory.
+#
+# sentence-transformers>=2.7.0
+# faiss-cpu>=1.8.0
+
+# ── Tests ───────────────────────────────────────────────────────────────────
+# pip install pytest httpx

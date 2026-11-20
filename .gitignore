@@ -1,0 +1,44 @@
+# ── Node / frontend ───────────────────────────────────────────────────────────
+node_modules/
+.next/
+out/
+dist/
+packages/types/dist/
+*.tsbuildinfo
+
+# electron-builder output
+apps/web/dist/
+apps/web/release/
+
+# ── Python ───────────────────────────────────────────────────────────────────
+__pycache__/
+*.py[cod]
+*.egg-info/
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+.venv/
+venv/
+htmlcov/
+.coverage
+
+# ── Secrets ──────────────────────────────────────────────────────────────────
+.env
+.env.*
+!.env.example
+services/.env
+services/api/.env
+
+# ── Runtime data (SQLite DB, FAISS indexes, run artefacts) ───────────────────
+data/
+*.db
+*.db-wal
+*.db-shm
+
+# ── Logs & editor junk ───────────────────────────────────────────────────────
+*.log
+*.local
+.DS_Store
+Thumbs.db
+.idea/
+.vscode/
