@@ -1,9 +1,16 @@
 """API auth gate and health endpoint."""
 
+import os
+import subprocess
+import sys
+from pathlib import Path
+
 import pytest
 from fastapi.testclient import TestClient
 
 from services.api import main as api_main
+
+REPO_ROOT = Path(__file__).resolve().parent.parent
 
 
 @pytest.fixture
@@ -19,6 +26,24 @@ def test_health_is_open_and_reports_auth_state(client):
     body = res.json()
     assert body["status"] == "ok"
     assert "auth" in body
+
+
+def test_blank_database_url_falls_back_to_sqlite():
+    """`DATABASE_URL=` in .env is blank, not unset.
+
+    Following the README (copy .env.example, start the API) used to die with
+    "Could not parse SQLAlchemy URL" because os.getenv(..., default) returns
+    the empty string rather than the default.
+    """
+    result = subprocess.run(
+        [sys.executable, "-c", "from services.api import database; print(database.DATABASE_URL)"],
+        capture_output=True,
+        text=True,
+        env={**os.environ, "DATABASE_URL": ""},
+        cwd=str(REPO_ROOT),
+    )
+    assert result.returncode == 0, result.stderr
+    assert "sqlite" in result.stdout
 
 
 def test_api_is_open_when_no_token_is_configured(client, monkeypatch):

@@ -16,7 +16,10 @@ from sqlalchemy.orm import DeclarativeBase, sessionmaker
 # ---------------------------------------------------------------------------
 
 _DEFAULT_DB_PATH = Path(__file__).parent.parent.parent / "data" / "rus.db"
-DATABASE_URL = os.getenv("DATABASE_URL", f"sqlite:///{_DEFAULT_DB_PATH}")
+# `or` instead of a default argument: DATABASE_URL= in .env is a set-but-blank
+# variable, and os.getenv(..., default) would return the blank and crash
+# create_engine with "Could not parse SQLAlchemy URL". Treat blank as unset.
+DATABASE_URL = os.getenv("DATABASE_URL") or f"sqlite:///{_DEFAULT_DB_PATH}"
 
 _connect_args = {"check_same_thread": False} if DATABASE_URL.startswith("sqlite") else {}
 

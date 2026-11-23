@@ -80,6 +80,9 @@ cd apps/web && npm run dev     # http://localhost:3000
 cd apps/web && npm run preview
 ```
 
+`npm run preview` serves the static export through `npx serve`, which downloads
+that package the first time it runs.
+
 Click **New Task**, describe what you want to optimize, and watch the loop run.
 
 ---
@@ -176,6 +179,7 @@ If you expose it, set `RUS_API_TOKEN` and configure `RUS_ALLOWED_ORIGINS`.
 ## Tests
 
 ```bash
+pip install pytest httpx
 python -m pytest tests/ -q
 ```
 
